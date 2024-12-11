@@ -60,4 +60,7 @@ out/
 ### VS Code ###
 .vscode/
 
-checksums
+checksums/
+.fleet
+generated/
+composeApp/build/
