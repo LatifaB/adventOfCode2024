@@ -21,6 +21,12 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.logging)
+            implementation(libs.ktor.serialization.kotlinx.json)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.client.encoding)
+            implementation(libs.ktor.client.okhttp)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
